@@ -1,3 +1,5 @@
+import type { AnimeFilters } from '../types'
+
 export const animeKeys = {
     all: ['anime'] as const,
     lists: () => [...animeKeys.all, 'list'] as const,
